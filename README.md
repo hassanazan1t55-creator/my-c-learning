@@ -20,3 +20,11 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
   * How to use variables (`int`, `float`, `char`) to store user data. (Data ko memory mein store karne ke liye variables banana).
   * Removed extra zeros from decimal values using the `%.1f` trick. (Point ke baad se falto zero hatane ki elite trick).
   * Writing clean and professional comments (`//`) to make the code look readable. (Code ke andar tameez se comments likhna taake portfolio pro-level ka lage).
+
+### Day 03: User Input
+* **Folder:** Day_03_Input
+* **File:** input.c
+* **What I Learnt:**
+  * How to take dynamic user input using the `scanf()` function. (User se live input lene ka tareeqa seekha).
+  * Understanding the importance of the Ampersand (`&`) sign as the memory address locator. (`&` sign ka maqsad seekha ke data memory mein kahan save hota hai).
+  * Practiced clean code layout with meaningful English and Roman Urdu explanations. (Saaf-suthra code aur dhang ke comments likhne ki mazeed practice ki).
