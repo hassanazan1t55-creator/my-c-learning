@@ -3,23 +3,23 @@
 int main() {
     int number1, number2, total;
     
-    // Asking user for the first number
-    // (User se pehla number maangna)
-    printf("Sir, enter the first number: ");
+    // ask user for first number
+    // (Pehla number maangna)
+    printf("Enter number 1: ");
     scanf("%d", &number1);
     
-    // Asking user for the second number
-    // (User se doosra number maangna)
-    printf("Sir, enter the second number: ");
+    // ask user for second number
+    // (Doosra number maangna)
+    printf("Enter number 2: ");
     scanf("%d", &number2);
     
-    // Multiplying both numbers and storing the result
-    // (Dono numbers ko multiply kar ke total mein save karna)
+    // multiply both numbers
+    // (Dono ko multiply karna)
     total = number1 * number2;
     
-    // Displaying the final answer
-    // (Aakhri jawab screen par print karna)
-    printf("Sir, after multiplying both numbers, the answer is: %d\n", total);
+    // show final answer
+    // (Aakhri jawab dikhana)
+    printf("Your multiply answer is: %d\n", total);
     
     return 0;
 }
