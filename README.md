@@ -56,3 +56,14 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
     > Seekha ke `if` ki line ke aakhir mein semicolon nahi lagate warna error aata hai.
   * Make age checker program for license.
     > Umer check kar ke license ka batane wala program banaya.
+
+### Day 06: Advanced Conditions (Else If Ladder)
+* **Folder:** `Day_06_Advanced_Conditions`
+* **File:** `speed_checker.c`
+* **What I Learnt:**
+  * Learn how to use else if for many options.
+    > Agar do se zyada options hon toh else if use karne ka tareeqa seekha.
+  * Computer check from top to bottom and stop when find true line.
+    > Seekha ke computer upar se check karta hai aur pehli sahi baat par ruk jata hai.
+  * Make a car speed checker tool.
+    > Gari ki speed check karne wala ek simple tool banaya.
