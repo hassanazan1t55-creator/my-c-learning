@@ -28,3 +28,12 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
   * How to take dynamic user input using the `scanf()` function. (User se live input lene ka tareeqa seekha).
   * Understanding the importance of the Ampersand (`&`) sign as the memory address locator. (`&` sign ka maqsad seekha ke data memory mein kahan save hota hai).
   * Practiced clean code layout with meaningful English and Roman Urdu explanations. (Saaf-suthra code aur dhang ke comments likhne ki mazeed practice ki).
+
+### Day 04: Basic Operators & Math
+* **Folder:** Day_04_Operators
+* **File:** calculator.c
+* **What I Learnt:**
+  * How to perform mathematical operations like Multiplication (`*`) in C.
+    > C language mein calculations (Multiplication) karne ka tareeqa seekha.
+  * Created a mini multiplier calculator that takes user inputs and shows the product.
+    > User se numbers le kar unhein multiply karne ka program banaya.
