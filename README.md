@@ -10,30 +10,49 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
 ### Day 01: Introduction
 * **Folder:** `Day_01_Introduction`
 * **File:** `hello_world.c`
-* **What I Learnt (Kya Seekha):** * Setting up GitHub and making the repository public. (GitHub par repository banana aur use public karna).
-  * Writing and running my very first "Hello World" program. (Apna pehla code run karna).
+* **What I Learnt:** * Make GitHub account and change repository to public.
+    > GitHub par repository banana aur use public karna.
+  * Code and run my first "Hello World" program.
+    > Apna pehla code run karna.
 
 ### Day 02: Variables & Data Types
 * **Folder:** `Day_02_Variables`
 * **File:** `variables.c`
-* **What I Learnt (Kya Seekha):**
-  * How to use variables (`int`, `float`, `char`) to store user data. (Data ko memory mein store karne ke liye variables banana).
-  * Removed extra zeros from decimal values using the `%.1f` trick. (Point ke baad se falto zero hatane ki elite trick).
-  * Writing clean and professional comments (`//`) to make the code look readable. (Code ke andar tameez se comments likhna taake portfolio pro-level ka lage).
+* **What I Learnt:**
+  * Use variables like int, float, char for store data.
+    > Data ko memory mein store karne ke liye variables banana.
+  * Delete extra zeros from float numbers with %.1f trick.
+    > Point ke baad se falto zero hatane ki elite trick.
+  * Write clear comments with // for clean code look.
+    > Code ke andar tameez se comments likhna taake portfolio pro-level ka lage.
 
 ### Day 03: User Input
-* **Folder:** Day_03_Input
-* **File:** input.c
+* **Folder:** `Day_03_Input`
+* **File:** `input.c`
 * **What I Learnt:**
-  * How to take dynamic user input using the `scanf()` function. (User se live input lene ka tareeqa seekha).
-  * Understanding the importance of the Ampersand (`&`) sign as the memory address locator. (`&` sign ka maqsad seekha ke data memory mein kahan save hota hai).
-  * Practiced clean code layout with meaningful English and Roman Urdu explanations. (Saaf-suthra code aur dhang ke comments likhne ki mazeed practice ki).
+  * I learn how to take input from user with scanf.
+    > User se live input lene ka tareeqa seekha.
+  * I learn & sign is for memory address.
+    > `&` sign ka maqsad seekha ke data memory mein kahan save hota hai.
+  * Practice simple code writing.
+    > Saaf-suthra code likhne ki practice ki.
 
 ### Day 04: Basic Operators & Math
-* **Folder:** Day_04_Operators
-* **File:** calculator.c
+* **Folder:** `Day_04_Operators`
+* **File:** `calculator.c`
 * **What I Learnt:**
-  * How to perform mathematical operations like Multiplication (`*`) in C.
-    > C language mein calculations (Multiplication) karne ka tareeqa seekha.
-  * Created a mini multiplier calculator that takes user inputs and shows the product.
+  * I learn multiply math in C language.
+    > C language mein multiply karne ka tareeqa seekha.
+  * Make a small calculator for multiply two numbers.
     > User se numbers le kar unhein multiply karne ka program banaya.
+
+### Day 05: Conditional Statements (If-Else)
+* **Folder:** `Day_05_Conditions`
+* **File:** `age_checker.c`
+* **What I Learnt:**
+  * Learn how to use if and else for decisions.
+    > Programming mein if-else se faisle karwane ka tareeqa seekha.
+  * Never put semicolon ; after if line because error come.
+    > Seekha ke `if` ki line ke aakhir mein semicolon nahi lagate warna error aata hai.
+  * Make age checker program for license.
+    > Umer check kar ke license ka batane wala program banaya.
