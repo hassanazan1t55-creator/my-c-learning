@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float hight;
+    float height;
     
     // Step 1: Asking the user to input their height
     // (User se unki height poochhna)
