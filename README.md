@@ -113,3 +113,14 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
     > Void ke baare mein seekha jiska matlab hai function kuch wapas nahi dega.
   * Make a security cyber alert function and call it two times.
     > Ek cyber alert function banaya aur use main program mein do dafa chalaya.
+
+### Day 11: Functions with Parameters
+* **Folder:** `Day_11_Function_Parameters`
+* **File:** `smart_calc.c`
+* **What I Learnt:**
+  * Learn how to send data inside function brackets ().
+    > Function ke brackets ke andar data/numbers bhejne ka tareeqa seekha.
+  * Make smart functions that take inputs and do math.
+    > Input le kar math calculations karne wale smart functions banaye.
+  * Put two functions add and multiply in one file like pro.
+    > Ek hi file mein add aur multiply ke do alag functions banana seekha.
