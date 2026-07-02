@@ -158,6 +158,14 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
   * Make a program to show salaries list with Rs format text.
     > Rs format ke sath salaries ki list print karne wala program banaya.
 
+* **Extra Practice File:** `lucky_drawer.c`
+* **What I Practiced:**
+  * Make empty array and fill it using scanf loop.
+    > Khali array bana kar loop ke zariye input bharna seekha.
+  * Use two different loops, one for saving data and one for printing data.
+    > Do alag loops use kiye, ek data save karne ke liye aur ek print karne ke liye.
+
+
 ### Day 15: Introduction to Strings
 * **Folder:** `Day_15_Strings`
 * **File:** `fav_lang.c`
@@ -183,3 +191,10 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
     > Code ko safe aur modern banane ke liye fgets aur sizeof ka istemal seekha.
   * Test array size limit by change size to 10.
     > Array ka size 10 kar ke limit check karne ka tareeqa seekha.
+
+* **Extra Practice File:** `student_report.c`
+* **What I Practiced:**
+  * Connect loop, if-else, and string input together in one big code.
+    > Loop, if-else, aur string input ko ek sath jorna seekha.
+  * Fix the getchar bug when loop run again for second student name.
+    > Agle student ke naam ke liye input buffer ka bug fix karna seekha.
