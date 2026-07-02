@@ -157,3 +157,16 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
     > Loop ke variable ki madad se array ke saare dabbay khud hi print karwaye.
   * Make a program to show salaries list with Rs format text.
     > Rs format ke sath salaries ki list print karne wala program banaya.
+
+### Day 15: Introduction to Strings
+* **Folder:** `Day_15_Strings`
+* **File:** `fav_lang.c`
+* **What I Learnt:**
+  * Learn how to store words and text using char array.
+    > Letters aur text save karne ke liye char array (string) ka tareeqa seekha.
+  * Leave [] brackets empty so computer automatically count text size.
+    > Brackets ko khali chora taake computer khud hi text ka size ginn le.
+  * Learn %s placeholder to print full string text at one time.
+    > Poora naam ek sath print karne ke liye `%s` ka istemal seekha.
+  * Make program to show my favorite programming language.
+    > Apni pasandida programming language dikhane wala ek simple program banaya.
