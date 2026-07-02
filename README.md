@@ -146,3 +146,14 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
     > Seekha ke computer mein ginti hamesha 0 se shuru hoti hai.
   * Print value of box 3 by using index number 2.
     > Index number 2 ka istemal kar ke teesre dabbe ki value dikhayi.
+
+### Day 14: Loop with Array
+* **Folder:** `Day_14_Array_Loop`
+* **File:** `salary_print.c`
+* **What I Learnt:**
+  * Learn how to connect for loop with array.
+    > Array ke sath for loop ko jorne ka tareeqa seekha.
+  * Print all boxes of array automatically using loop index variable.
+    > Loop ke variable ki madad se array ke saare dabbay khud hi print karwaye.
+  * Make a program to show salaries list with Rs format text.
+    > Rs format ke sath salaries ki list print karne wala program banaya.
