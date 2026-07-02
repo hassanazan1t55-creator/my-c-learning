@@ -135,3 +135,14 @@ Welcome to my C programming journey! Here, I will upload my daily codes, logic, 
     > Return keyword ke baare mein seekha jo jawab ko main program mein bhejta hai.
   * Make a minus function that returns the result without printf inside it.
     > Andar printf likhe bina minus ka jawab return karne wala function banaya.
+
+### Day 13: Introduction to Arrays
+* **Folder:** `Day_13_Arrays`
+* **File:** `lucky_numbers.c`
+* **What I Learnt:**
+  * Learn how to store many numbers in one variable name using array.
+    > Ek hi naam ke andar bohot saare numbers save karne ka tareeqa seekha.
+  * Learn that computer counting always start from 0 not 1.
+    > Seekha ke computer mein ginti hamesha 0 se shuru hoti hai.
+  * Print value of box 3 by using index number 2.
+    > Index number 2 ka istemal kar ke teesre dabbe ki value dikhayi.
