@@ -1,12 +1,17 @@
-### Day 30: Structure Padding & Memory Alignment
-* **Folder:** `Day_30_Structure_Padding`
-* **File:** `structure_padding.c`
-* **What I Learnt:**
-  * Understand the internal RAM compilation scam called Structure Padding for data fetch optimization.
-    > Processor speed badhane ke liye computer jo khali memory blocks chhorta hai, use samjha.
-  * Master compiler controls using `#pragma pack(push, 1)` directives to force strict alignment boundaries.
-    > Padding ko temporarily disable kar ke structures ka zero-waste packing layout seekha.
-  * Implement `#pragma pack(pop)` statements to restore baseline layout behavior safely.
-    > Task khatam hone par settings ko reset karne ka professional syntax process check kiya.
-  * Evaluate memory allocation differences directly through raw console byte size footprints.
-    > `sizeof` data tags ke zariye 8 bytes aur 5 bytes memory block structure ka differences trace kiya.
+# Day 30: Structure Padding & Memory Alignment
+
+Today I explored the internal behavior of memory alignment inside RAM and learned how to bypass structural padding using compiler directives.
+
+## What I Learnt:
+* **Structure Padding Scam:** Understood how the compiler automatically inserts empty bytes (padding) to align data variables with 4-byte or 8-byte CPU word boundaries for faster data fetching.
+  > Processor speed badhane ke liye computer jo khali memory blocks chhorta hai, use detail se samjha.
+* **Compiler Directives (`#pragma pack`):** Mastered the use of `#pragma pack(push, 1)` to disable default spacing padding and force structures to pack variables tightly.
+  > Padding ko temporarily disable kar ke structures ka zero-waste packing layout seekha.
+* **Restoring Configuration:** Implemented `#pragma pack(pop)` statements to reset memory boundary definitions safely after defining the required packed struct.
+  > Task khatam hone par structural settings ko baseline par reset karne ka professional syntax process check kiya.
+* **Console Verification:** Used the `sizeof` operator to evaluate the byte differences directly via console logs.
+  > `sizeof` ke zariye 8 bytes (padded) aur 5 bytes (packed) memory block structures ka active footprint test kiya.
+
+## Files in this Folder:
+1. `practice_padding_basic.c` -> Introductory setup demonstrating basic normal vs. packed size structures.
+2. `structure_padding.c` -> Main implementation logging out structured performance differences inside the memory stack.
