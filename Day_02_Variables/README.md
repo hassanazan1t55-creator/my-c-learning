@@ -1,10 +1,11 @@
-### Day 02: Variables & Data Types
-* **Folder:** `Day_02_Variables`
-* **File:** `variables.c`
-* **What I Learnt:**
-  * Use variables like int, float, char for store data.
-    > Data ko memory mein store karne ke liye variables banana.
-  * Delete extra zeros from float numbers with %.1f trick.
-    > Point ke baad se falto zero hatane ki elite trick.
-  * Write clear comments with // for clean code look.
-    > Code ke andar tameez se comments likhna taake portfolio pro-level ka lage.
+# Day 02: Variables & Data Types
+
+Today I explored basic storage containers inside RAM and practiced formatting numeric outputs.
+
+## What I Learnt:
+* **Memory Allocations:** Learned how to declare standard variables using foundational data types like `int`, `float`, and `char` to hold explicit data points.
+* **Precision Formatting:** Mastered output control using the `%.1f` modifier trick to drop unwanted trailing zeroes from floating-point variables.
+* **Code Cleanliness:** Applied structured multi-line and single-line inline comments (`//`) to maintain high documentation quality within scripts.
+
+## Files in this Folder:
+1. `variables.c` -> Foundational implementation storing different data configurations and testing precise printing formats.
