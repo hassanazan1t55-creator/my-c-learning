@@ -14,6 +14,6 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_21` to `Day_23`:** Structures concept, nested structures, and basic File Handling.
 * **`Day_24` to `Day_25`:** Dynamic Memory Allocation (malloc, free, dynamic arrays, and arrow operator).
 * **`Day_26` to `Day_28`:** Bitwise Operators (AND, OR, XOR, NOT, Shifts, and Bit Masking basics).
-* **`Day_29` to `Day_31`:** Preprocessor Macros (#define, #ifdef), Structure Padding scams, and Union memory sharing concepts (fusing bytes into single integers).
+* **`Day_29` to `Day_32`:** Preprocessor Macros (#define, #ifdef), Structure Padding, Union memory sharing, and Enum configurations with Switch Case controls.
 
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
