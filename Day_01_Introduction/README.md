@@ -1,7 +1,10 @@
-### Day 01: Introduction
-* **Folder:** `Day_01_Introduction`
-* **File:** `hello_world.c`
-* **What I Learnt:** * Make GitHub account and change repository to public.
-    > GitHub par repository banana aur use public karna.
-  * Code and run my first "Hello World" program.
-    > Apna pehla code run karna.
+# Day 01: Introduction to C Programming
+
+Today I initiated my repository setup and successfully compiled my very first low-level script.
+
+## What I Learnt:
+* **GitHub Repository Setup:** Created a public repository to track my daily logical progress.
+* **First Code Compilation:** Configured the base structure to execute and run a traditional "Hello World" terminal output script.
+
+## Files in this Folder:
+1. `hello_world.c` -> The foundational starting script displaying standard message streams on the screen.
