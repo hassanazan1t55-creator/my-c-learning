@@ -16,5 +16,21 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_26` to `Day_28`:** Bitwise Operators (AND, OR, XOR, NOT, Shifts, and Bit Masking basics).
 * **`Day_29` to `Day_32`:** Preprocessor Macros (#define, #ifdef), Structure Padding, Union memory sharing, and Enum configurations with Switch Case controls.
 * **`Day_33`:** Introduction to Data Structures, dynamic memory allocation layouts, and basic single/multi-node Linked Lists architecture.
-
+----
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
+
+---
+
+## How to Run the Code
+
+To compile and run any daily practice code using GCC, use the following commands in your terminal:
+
+```bash
+# Navigate to the specific day directory
+cd Day_33_Linked_List
+
+# Compile the C program
+gcc main.c -o program
+
+# Run the compiled executable
+./program
