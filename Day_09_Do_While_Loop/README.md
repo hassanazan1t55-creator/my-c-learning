@@ -1,12 +1,12 @@
-### Day 09: Post-Test Iteration (Do-While Loop)
-* **Folder:** `Day_09_Do_While_Loop`
-* **File:** `atm_pin.c`
-* **What I Learnt:**
-  * Learn do-while loop which work first and check condition later.
-    > Seekha ke do-while loop pehle kaam karta hai aur condition baad mein check karta hai.
-  * Learn that do-while loop always run 1 time minimum.
-    > Seekha ke do-while loop kam se kam ek dafa laazmi chalta hai chahe condition galat ho.
-  * Must put semicolon ; at the end of while line in this loop.
-    > Seekha ke is loop mein while ke aakhir mein semicolon lagana zaroori hai.
-  * Make a simple ATM PIN check program.
-    > Ek simple ATM PIN check karne wala prototype banaya.
+# Day 09: Post-Test Iteration (Do-While Loop)
+
+Today I practiced exit-controlled loop logic to guarantee that program statements execute at least once before evaluating condition states.
+
+## What I Learnt:
+* **Post-Test Evaluation:** Mastered the `do-while` control flow structure, which ensures that the loop body executes at least one initial time before testing conditions.
+* **Syntax Mandates:** Applied the required closing semicolon `;` directly after the ending `while(condition);` statement to avoid syntax compilation errors.
+* **Interactive Menu Systems:** Built user menu prompt systems that continuously re-display options dynamically until explicit exit choices are selected.
+
+## Files in this Folder:
+1. `atm_pin_verifier.c` -> An authentication verification system that keeps prompting for secret security keys until access criteria are satisfied.
+2. `game_menu_system.c` -> An interactive menu interface that cycles through gameplay selections and safely terminates execution upon user command.
