@@ -1,28 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int speed_checker;
- 
-    // ask user for car speed
-    // (User se gari ki speed poochna)
-    printf("Please enter the speed of the car: ");
-    scanf("%d", &speed_checker);
- 
-    // check if speed is 120 or more
-    // (Check karna agar speed 120 ya zyada hai)
-    if (speed_checker >= 120) {
-        printf("Challan ho gaya! Boht tez hain aap.\n");
-    }
-    // check if speed is 80 or more
-    // (Check karna agar speed 80 ya zyada hai)
-    else if (speed_checker >= 80) {
-        printf("Speed normal hai, safe rahein.\n");
-    }    
-    // if speed is low
-    // (Agar speed kam hai)
-    else {
-        printf("Aap boht sakoon se chala rahe hain.\n");
-    }
+  // Variable to store the speed of the car.
+  int speed_checker;
 
-    return 0;
+  // Prompt the user to enter the speed of the car.
+  printf("Enter the speed of the car (in km/h): ");
+  scanf("%d", &speed_checker);
+
+  // Check the speed and print the oppropriate message based on the speed.
+  if (speed_checker >= 120) {
+    printf("You are driving too fast, please slow down!\n");
+  } else if (speed_checker >= 80) {
+    printf("You are driving at a normal speed.\n");
+  } else {
+    printf("You are driving too slow.\n");
+  }
+  return 0;
 }
