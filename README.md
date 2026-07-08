@@ -16,6 +16,7 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_26` to `Day_28`:** Bitwise Operators (AND, OR, XOR, NOT, Shifts, and Bit Masking basics).
 * **`Day_29` to `Day_32`:** Preprocessor Macros (#define, #ifdef), Structure Padding, Union memory sharing, and Enum configurations with Switch Case controls.
 * **`Day_33`:** Introduction to Data Structures, dynamic memory allocation layouts, and basic single/multi-node Linked Lists architecture.
+* **`Day_34`:** Linked List Traversal techniques, dynamic data calculation accumulators, and target search algorithms with optimized loop exits.
 ----
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
 
