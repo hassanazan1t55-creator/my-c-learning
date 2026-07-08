@@ -1,25 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int number1, number2, total;
-    
-    // ask user for first number
-    // (Pehla number maangna)
-    printf("Enter number 1: ");
-    scanf("%d", &number1);
-    
-    // ask user for second number
-    // (Doosra number maangna)
-    printf("Enter number 2: ");
-    scanf("%d", &number2);
-    
-    // multiply both numbers
-    // (Dono ko multiply karna)
-    total = number1 * number2;
-    
-    // show final answer
-    // (Aakhri jawab dikhana)
-    printf("Your multiply answer is: %d\n", total);
-    
-    return 0;
+  // Initialize Variables to store the two numbers and the total.  
+  int number1, number2, total;
+  
+  // Prompt the user to enter two numbers and store them in the variables.
+  printf("Enter number 1: ");
+  scanf("%d", &number1);
+  printf("Enter number 2: ");
+  scanf("%d", &number2);
+  
+  // Calculate the total by multiplying the two numbers.
+  total = number1 * number2;
+  
+  // Display the result to the user.  
+  printf("Your Result is: %d\n", total);
+  return 0;
 }
