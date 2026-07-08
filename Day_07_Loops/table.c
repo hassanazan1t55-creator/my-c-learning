@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int counting;
+  // Initialize a variable to store a User Input.
 
-    // loop run 10 times for table
-    // (Table ke liye loop 10 dafa chalega)
-    for(counting = 1; counting <= 10; counting++) {
-        
-        // print table design and do math
-        // (Table ka design banana aur math karna)
-        printf("2 x %d = %d\n", counting, 2 * counting);
-    }
+  int num;
 
-    return 0;
+  // Prompt the user to enter a number for which they want to print the
+  // multiplication table.
+
+  printf("Enter a number to print its multiplication table: ");
+
+  scanf("%d", &num);
+
+  for (int i = 1; i <= 10; i++) {
+    printf("%d x %d = %d\n", num, i, num * i);
+  }
+
+  return 0;
 }
