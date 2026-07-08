@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int age_checker;
-   
-    // ask user age
-    // (User se umer poochna)
-    printf("Enter your age: ");
-    scanf("%d", &age_checker);
-   
-    // check if age is 18 or big
-    // (Check karna umer 18 ya badi hai)
-    if (age_checker >= 18) {
-        printf("You can make CNIC and License\n");
-    }    
-    else {
-        printf("You are small boy now\n");
-    }
-       
-    return 0;    
+  // Initialize the variable to store the age.  
+  int age_checker;
+  
+  // Prompt the user to enter their age.
+  printf("Enter your age: ");
+  scanf("%d", &age_checker);
+  
+  // Check if the user is 18 or older and print the oppropriate message.
+  if (age_checker >= 18) {
+  printf("You can make CNIC and License\n");
+  } else {
+  printf("You are small boy now\n");
+  }
+  return 0;    
 }
