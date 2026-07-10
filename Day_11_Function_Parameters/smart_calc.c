@@ -1,29 +1,19 @@
 #include <stdio.h>
 
-// function for add numbers
-// (Numbers ko plus karne ka function)
-void add_karo(int a, int b) {
+// Function Declaration.
+void Add(int a, int b) {
     int result = a + b;
-    printf("In ko Add karne ka result hai: %d\n", result);
+    printf("The Result Add is: %d\n", result);
 }
 
-// function for multiply numbers
-// (Numbers ko multiply karne ka function)
-void multiply_karo(int a, int b) {
+// Function Declaration.
+void Multiply(int a, int b) {
     int result = a * b;
-    printf("In ko Multiply karne ka result hai: %d\n", result);
+    printf("The Result Multiply is: %d\n", result);
 }
 
 int main() {
-    printf("Phela dafa function call kar rahe hain\n");
-    
-    // send numbers to add function
-    // (Add wale function ko numbers bhejna)
-    add_karo(5, 32);
-    
-    // send numbers to multiply function
-    // (Multiply wale function ko numbers bhejna)
-    multiply_karo(5, 12);
-    
+    Add(5, 32);   // Function Calling.
+    Multiply(5, 12);   // Function Calling.
     return 0;
 }
