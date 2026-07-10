@@ -1,10 +1,12 @@
-### Day 10: Introduction to Functions
-* **Folder:** `Day_10_Functions`
-* **File:** `cyber_alert.c`
-* **What I Learnt:**
-  * Learn how to make own function for reuse code.
-    > Code ko baar baar chalane ke liye apna function banana seekha.
-  * Learn about void which means function not return anything.
-    > Void ke baare mein seekha jiska matlab hai function kuch wapas nahi dega.
-  * Make a security cyber alert function and call it two times.
-    > Ek cyber alert function banaya aur use main program mein do dafa chalaya.
+# Day 10: Introduction to Functions
+
+Today I practiced structural code decomposition by writing modular custom functions to run reusable blocks of logic cleanly.
+
+## What I Learnt:
+* **Code Reusability:** Learned how to declare and implement user-defined functions to avoid repeating identical blocks of execution statements inside the application.
+* **Void Return Types:** Practiced deploying the `void` keyword identifier for operations that process logs directly without passing return values back to the execution root.
+* **Function Parameterization:** Mastered passing explicit runtime variables and data arguments dynamically into functional execution blocks to run math calculations cleanly.
+
+## Files in this Folder:
+1. `cyber_alert.c` -> A modular reporting function that displays defensive information systems alerts repeatedly on demand.
+2. `function_parameters.c` -> A mathematical helper utility that accepts input integer arguments to calculate and print square products cleanly.
