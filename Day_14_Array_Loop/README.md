@@ -1,17 +1,14 @@
-### Day 14: Loop with Array
-* **Folder:** `Day_14_Array_Loop`
-* **File:** `salary_print.c`
-* **What I Learnt:**
-  * Learn how to connect for loop with array.
-    > Array ke sath for loop ko jorne ka tareeqa seekha.
-  * Print all boxes of array automatically using loop index variable.
-    > Loop ke variable ki madad se array ke saare dabbay khud hi print karwaye.
-  * Make a program to show salaries list with Rs format text.
-    > Rs format ke sath salaries ki list print karne wala program banaya.
-----
-* **Extra Practice File:** `lucky_drawer.c`
-* **What I Practiced:**
-  * Make empty array and fill it using scanf loop.
-    > Khali array bana kar loop ke zariye input bharna seekha.
-  * Use two different loops, one for saving data and one for printing data.
-    > Do alag loops use kiye, ek data save karne ke liye aur ek print karne ke liye.
+# Day 13: Introduction to Arrays
+
+Today I learned how to use arrays in C to store and manage multiple values efficiently under a single variable name.
+
+## What I Learnt:
+* **Contiguous Memory Storage:** Learned how to store multiple values of the same data type together in a single structured block.
+* **Zero-Based Indexing:** Understood that array counting always starts from index 0 instead of 1.
+* **Element Accessing:** Mastered how to read and print specific values from any array box using its index number.
+* **Loop Integration:** Combined arrays with `for` loops to automate user inputs and clean output printing.
+
+## Files in this Folder:
+1. `intro_to_arrays.c` -> A basic program showing how to declare an array and print static marks elements directly.
+2. `lucky_numbers.c` -> An interactive script focusing on targeting specific indexes to fetch data values.
+3. `array_with_loop.c` -> A dynamic application using loops to take float price inputs from the user and display them.
