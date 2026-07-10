@@ -1,14 +1,13 @@
-# Day 13: Introduction to Arrays
+# Day 14: Loop with Array
 
-Today I learned how to use arrays in C to store and manage multiple values efficiently under a single variable name.
+Today I learned how to combine loops with arrays in C to process and format multiple data entries efficiently using index counters.
 
 ## What I Learnt:
-* **Contiguous Memory Storage:** Learned how to store multiple values of the same data type together in a single structured block.
-* **Zero-Based Indexing:** Understood that array counting always starts from index 0 instead of 1.
-* **Element Accessing:** Mastered how to read and print specific values from any array box using its index number.
-* **Loop Integration:** Combined arrays with `for` loops to automate user inputs and clean output printing.
+* **Loop and Array Binding:** Mastered how to use a `for` loop tracker to cycle through array boxes sequentially.
+* **Automated Data Printing:** Learned to print all elements stored inside an array automatically using a single loop variable.
+* **Custom Output Formatting:** Practiced styling numeric value readouts by adding string prefixes like `Rs.` to make outputs look professional.
+* **Dynamic Input Buffering:** Created empty arrays and populated them dynamically using values entered by the user inside a scanning loop.
 
 ## Files in this Folder:
-1. `intro_to_arrays.c` -> A basic program showing how to declare an array and print static marks elements directly.
-2. `lucky_numbers.c` -> An interactive script focusing on targeting specific indexes to fetch data values.
-3. `array_with_loop.c` -> A dynamic application using loops to take float price inputs from the user and display them.
+1. `salary_print.c` -> A script that loops through an initialized array to print formatted employee salaries with currency labels.
+2. `lucky_drawer.c` -> An interactive program using an input loop to save distinct user choices into an array and a separate loop to display them.
