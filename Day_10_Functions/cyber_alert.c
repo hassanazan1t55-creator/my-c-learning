@@ -1,21 +1,17 @@
 #include <stdio.h>
 
-// my own function for alert
-// (Apna function alert ke liye)
+// Function Declaration.
 void cyber_alert() {
+    printf("========================================\n");
     printf("Warning: Security Breach Detected!\n");
+    printf("========================================\n");
 }
 
 int main() {
-    // call function first time
-    // (Pehli dafa function ko chalana)
-    cyber_alert();
+    cyber_alert();  // Function Calling.
+    printf("\n");
+    cyber_alert(); // Function Calling.
     
-    // call function second time
-    // (Doosri dafa function ko chalana)
-    cyber_alert();
-    
-    printf("Sir Mubarak ho Code sahi chal gaya ha or hum ny function banana seekh liya ha\n");
-    
+    printf("Sir Congratulations Cyber Alert Activated!\n");
     return 0;
 }
