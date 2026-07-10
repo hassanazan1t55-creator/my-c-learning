@@ -18,6 +18,7 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_33`:** Introduction to Data Structures, dynamic memory allocation layouts, and basic single/multi-node Linked Lists architecture.
 * **`Day_34`:** Linked List Traversal techniques, dynamic data calculation accumulators, and target search algorithms with optimized loop exits.
 * **`Day_35`:** Inserting nodes at the beginning (At Head) in $O(1)$ constant time using pointer reassignments.
+* **`Day_36`:** Appending nodes at the end (At Tail) of linked lists using look-ahead loop termination logic.
 ----
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
 
