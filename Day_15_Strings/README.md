@@ -1,12 +1,13 @@
-### Day 15: Introduction to Strings
-* **Folder:** `Day_15_Strings`
-* **File:** `fav_lang.c`
-* **What I Learnt:**
-  * Learn how to store words and text using char array.
-    > Letters aur text save karne ke liye char array (string) ka tareeqa seekha.
-  * Leave [] brackets empty so computer automatically count text size.
-    > Brackets ko khali chora taake computer khud hi text ka size ginn le.
-  * Learn %s placeholder to print full string text at one time.
-    > Poora naam ek sath print karne ke liye `%s` ka istemal seekha.
-  * Make program to show my favorite programming language.
-    > Apni pasandida programming language dikhane wala ek simple program banaya.
+# Day 15: Introduction to Strings
+
+Today I learned how to handle text and words in C using character arrays, string modification, and character indexing.
+
+## What I Learnt:
+* **Character Arrays for Strings:** Learned how to store text data using character arrays with automatic size calculation.
+* **Format Specifiers:** Used `%s` to print complete string variables and `%c` to target individual character indexes.
+* **Direct Character Modification:** Practiced updating specific characters in a string by modifying values at individual array index positions.
+
+## Files in this Folder:
+1. `fav_lang.c` -> A basic program storing name strings and accessing specific letter positions using character array indexing.
+2. `intro_to_strings.c` -> An introduction script demonstrating how to store text strings and print them cleanly.
+3. `string_modification.c` -> A program showing how to modify individual characters in an existing string array to change the word output.
