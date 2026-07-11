@@ -1,51 +1,46 @@
 #include <stdio.h>
 
 int main() {
-    int i;
-    int urdu; 
-    int math;
-    char name[50];
+  // Initializing Variables.
+  int i;
+  int english;
+  int math;
+  char name[50];
 
-    // loop run 2 times for 2 students
-    // (2 students ke liye loop 2 dafa chalega)
-    for (i = 0; i < 2; i++) {
-        printf("==========================================\n");
-        
-        // ask student name
-        // (Student ka naam poochna)
-        printf("Apna Name Likhe: ");
-        fgets(name, sizeof(name), stdin);
-        
-        // ask marks for both subjects
-        // (Dono subjects ke marks poochna)
-        printf("Apny Phely Subject Urdu ky marks likho: ");
-        scanf("%d", &urdu);
-        
-        printf("Apny dosry Subject Math ky marks likho: ");
-        scanf("%d", &math);
-        
-        // fix input buffer bug for next loop round
-        // (Agle round ke liye memory se Enter saaf karne ka trick)
-        while ((getchar()) != '\n');
-        
-        int grand_total = math + urdu;
-        
-        // print all student data on screen
-        // (Student ka saara data screen par dikhana)
-        printf("\nStudent ka Name ha: %s", name);
-        printf("Apky Urdu ky marks ha: %d \n", urdu);
-        printf("Apky Math ky marks ha: %d\n", math);
-        printf("%sky total Marks ha: %d\n", name, grand_total);
-        printf("==========================================\n");
-        
-        // check pass or fail condition
-        // (Pass ya fail check karne ka logic)
-        if (grand_total >= 100) {
-            printf("Mubarak ho ap Pass ha!\n");
-        } else {
-            printf("Sorry Ap Fail ho gay ha!\n");
-        }
+  // Using For Loop.
+  for (i = 0; i < 2; i++) {
+    printf("==========================================\n");
+
+    // Input From User Asking For Student Name, English, Math Marks.
+    printf("Enter Student Name: ");
+    fgets(name, sizeof(name), stdin);
+
+    printf("Enter Your English Marks: ");
+    scanf("%d", &english);
+
+    printf("Enter Your Math Marks:");
+    scanf("%d", &math);
+
+    // Clearing Buffer.
+    while ((getchar()) != '\n');
+
+    // Calculating Total Marks.
+    int grand_total = math + english;
+
+    // Displaying Output.
+    printf("\n Student Name is: %s", name);
+    printf("\n Your English Makrs is: %d \n", english);
+    printf("\n Your Math Marks is: %d\n", math);
+    printf("\n %s Total Marks: %d\n", name, grand_total);
+    printf("==========================================\n");
+
+    // Checking Condition.
+    if (grand_total >= 50) {
+      printf("Congrats You are Passed\n");
+    } else {
+      printf("Sorry You are Failed\n");
     }
-    
-    return 0;
+  }
+
+  return 0;
 }
