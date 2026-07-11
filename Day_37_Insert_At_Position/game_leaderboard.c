@@ -8,7 +8,7 @@ struct PlayerNode {
 };
 
 int main() {
-    // 1. Setup existing leaderboard: Rank 1 (100) -> Rank 3 (80)
+    // Setup existing leaderboard: Rank 1 (100) -> Rank 3 (80)
     struct PlayerNode *rank1 = (struct PlayerNode *)malloc(sizeof(struct PlayerNode));
     struct PlayerNode *rank3 = (struct PlayerNode *)malloc(sizeof(struct PlayerNode));
 
@@ -18,11 +18,11 @@ int main() {
     rank3->score = 80;
     rank3->next = NULL;
 
-    // 2. New score of 90 needs to go into position 2
+    // New score of 90 needs to go into position 2
     struct PlayerNode *rank2 = (struct PlayerNode *)malloc(sizeof(struct PlayerNode));
     rank2->score = 90;
 
-    // 3. Move temp pointer to position 1
+    // Move temp pointer to position 1
     struct PlayerNode *temp = rank1;
     int target_position = 2;
 
@@ -30,11 +30,11 @@ int main() {
         temp = temp->next;
     }
 
-    // 4. Insert rank 2 node in between
+    // Insert rank 2 node in between
     rank2->next = temp->next; // Link 90 to 80
     temp->next = rank2;       // Link 100 to 90
 
-    // 5. Display the leaderboard
+    // Display the leaderboard
     struct PlayerNode *printTemp = rank1;
     int rank = 1;
 
