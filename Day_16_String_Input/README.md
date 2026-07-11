@@ -1,19 +1,13 @@
-### Day 16: Secure String Input (Fgets)
-* **Folder:** `Day_16_String_Input`
-* **File:** `secure_input.c`
-* **What I Learnt:**
-  * Learn why scanf is bad for string because it skip text after space.
-    > Seekha ke scanf space ke baad text chhor deta hai isliye string ke liye acha nahi hai.
-  * Learn about buffer overflow bug in gets function.
-    > Gets function ke buffer overflow wale bug ke baare mein seekha.
-  * Use fgets with sizeof to make code modern and secure from hacking.
-    > Code ko safe aur modern banane ke liye fgets aur sizeof ka istemal seekha.
-  * Test array size limit by change size to 10.
-    > Array ka size 10 kar ke limit check karne ka tareeqa seekha.
+# Day 16: Secure String Input (fgets)
 
-* **Extra Practice File:** `student_report.c`
-* **What I Practiced:**
-  * Connect loop, if-else, and string input together in one big code.
-    > Loop, if-else, aur string input ko ek sath jorna seekha.
-  * Fix the getchar bug when loop run again for second student name.
-    > Agle student ke naam ke liye input buffer ka bug fix karna seekha.
+Today I practiced capturing safe string inputs in C using `fgets` to prevent buffer overflow issues and handle multi-word inputs containing spaces correctly.
+
+## What I Learnt:
+* **Safe String Scanning:** Learned why `fgets` is preferred over `scanf` for reading strings with spaces safely.
+* **Size Boundary Control:** Used `sizeof()` inside `fgets` to automatically match character array capacity and prevent buffer overflow.
+* **Input Buffer Flushing:** Mastered clearing leftover newline characters from the buffer using `while (getchar() != '\n');` when combining `scanf` and `fgets` inside loops.
+
+## Files in this Folder:
+1. `fgets_string_input.c` -> A basic program taking full name input using `fgets` to read complete text strings with spaces.
+2. `secure_input.c` -> A status reporting script testing fixed array boundaries with `fgets` input.
+3. `student_report.c` -> A student report system combining loops, mark calculations, buffer clearing, and pass/fail conditions.
