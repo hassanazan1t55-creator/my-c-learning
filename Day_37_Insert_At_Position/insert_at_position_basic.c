@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Professional Node Structure
+// Basic node structure
 struct Node {
     int data;
     struct Node *next;
 };
 
 int main() {
-    // Initial List (10 -> 30)
+    // 1. Create initial list: 10 -> 30
     struct Node *head = (struct Node *)malloc(sizeof(struct Node));
     head->data = 10;
 
@@ -16,41 +16,36 @@ int main() {
     third->data = 30;
     third->next = NULL;
 
-    head->next = third; // 10 points directly to 30
+    head->next = third; // Point 10 to 30
 
-    printf("--- INITIAL LINKED LIST ---\n");
-    printf("%d -> %d -> NULL\n\n", head->data, head->next->data);
+    printf("Initial List: %d -> %d -> NULL\n\n", head->data, head->next->data);
 
-    // CREATE NEW NODE (20) TO INSERT AT POSITION 2
+    // 2. Create a new node (20) to put at position 2
     struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
     newNode->data = 20;
 
-    // Traverse to Position 1 
+    // 3. Move temp pointer to position 1 (right before where we insert)
     struct Node *temp = head;
     int position = 2;
 
-    // Loop stops at (position - 1) which is Position 1 (head)
     for (int i = 1; i < position - 1; i++) {
         temp = temp->next;
     }
 
-    // LINKING THE MIDDLE NODE (The Two Magic Steps)
-    // Step A: Point new node (20) to the next node (30) first to prevent memory leak
-    newNode->next = temp->next;
+    // 4. Link the new node in the middle
+    newNode->next = temp->next; // Point 20 to 30 first
+    temp->next = newNode;       // Point 10 to 20 second
 
-    // Step B: Point current node (10) to the new node (20)
-    temp->next = newNode;
-
-    // DISPLAY THE FINAL LINKED LIST
+    // 5. Print the updated list
     struct Node *printTemp = head;
-    printf("--- LINKED LIST AFTER INSERTING IN THE MIDDLE ---\n\n");
+    printf("Updated List: ");
     while (printTemp != NULL) {
         printf("%d -> ", printTemp->data);
         printTemp = printTemp->next;
     }
     printf("NULL\n");
 
-    // Freeing memory allocations safely
+    // Clean up memory
     free(head);
     free(newNode);
     free(third);
