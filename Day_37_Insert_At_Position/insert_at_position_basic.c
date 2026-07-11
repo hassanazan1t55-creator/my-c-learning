@@ -8,7 +8,7 @@ struct Node {
 };
 
 int main() {
-    // 1. Create initial list: 10 -> 30
+    // Create initial list: 10 -> 30
     struct Node *head = (struct Node *)malloc(sizeof(struct Node));
     head->data = 10;
 
@@ -20,11 +20,11 @@ int main() {
 
     printf("Initial List: %d -> %d -> NULL\n\n", head->data, head->next->data);
 
-    // 2. Create a new node (20) to put at position 2
+    // Create a new node (20) to put at position 2
     struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
     newNode->data = 20;
 
-    // 3. Move temp pointer to position 1 (right before where we insert)
+    // Move temp pointer to position 1 (right before where we insert)
     struct Node *temp = head;
     int position = 2;
 
@@ -32,11 +32,11 @@ int main() {
         temp = temp->next;
     }
 
-    // 4. Link the new node in the middle
+    // Link the new node in the middle
     newNode->next = temp->next; // Point 20 to 30 first
     temp->next = newNode;       // Point 10 to 20 second
 
-    // 5. Print the updated list
+    // Print the updated list
     struct Node *printTemp = head;
     printf("Updated List: ");
     while (printTemp != NULL) {
