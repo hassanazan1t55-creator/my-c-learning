@@ -1,10 +1,13 @@
-### Day 19: Call by Reference (Pointers with Functions)
-* **Folder:** `Day_19_Call_By_Reference`
-* **File:** `salary_double.c`
-* **What I Learnt:**
-  * Learn how to send variable memory address (`&`) into a function.
-    > Function ke andar variable ka memory address bhejna seekha.
-  * Learn Call by Reference to change main variables directly from inside a function.
-    > Function ke andar se main variable ki value direct badalna seekha.
-  * Understand the internal working of `*ptr = *ptr * 2` logic in RAM.
-    > RAM ke andar pointer multiplication ki working ko achi tarah samjha.
+# Day 19: Call by Reference (Pointers with Functions)
+
+Today I learned how to pass variable memory addresses into functions using pointers to modify original variables directly inside memory.
+
+## What I Learnt:
+* **Passing Addresses (`&`):** Passed variable memory addresses to functions instead of copying values.
+* **Direct Modification (`*`):** Used pointers inside functions to modify original caller variables in RAM.
+* **Value Swapping:** Implemented variable swapping logic using pointer addresses and temporary memory storage.
+
+## Files in this Folder:
+1. `call_by_reference.c` -> Program swapping two integer variables using pointer references in a function.
+2. `height_booster.c` -> Program updating a height value directly inside memory through a helper function.
+3. `salary_bonus.c` -> Program doubling an employee salary directly using call-by-reference logic.
