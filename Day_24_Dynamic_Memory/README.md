@@ -1,12 +1,14 @@
-### Day 24: Dynamic Memory Allocation (Live RAM Request)
-* **Folder:** `Day_24_Dynamic_Memory`
-* **File:** `malloc_array.c`
-* **What I Learnt:**
-  * Include `stdlib.h` header to use professional memory management utilities.
-    > Dynamic memory allocation features use karne ke liye `stdlib.h` include kiya.
-  * Use `malloc()` function to request live runtime data blocks from system RAM.
-    > Program chaltay waqt RAM se live storage mangne ke liye `malloc` ka use seekha.
-  * Apply `sizeof()` keyword to safely calculate type byte count automatically across different architectures.
-    > Har computer type par automatically byte size match karne ke liye `sizeof` samjha.
-  * Use `free()` command at the end to clean raw blocks and prevent severe Memory Leaks.
-    > Memory leak se computer hang hone se bachane ke liye memory free karna seekha.
+# Day 24: Dynamic Memory Allocation
+
+Today I learned how to allocate, expand, and manage memory dynamically at runtime using heap memory functions in C.
+
+## What I Learnt:
+* **Dynamic Allocation (`malloc`):** Allocated memory on the heap dynamically at runtime based on compile-time and user-defined inputs.
+* **Array Resizing (`realloc`):** Expanded existing allocated memory to store additional elements without losing or overwriting previous data.
+* **Memory Cleanup (`free`):** Used `free()` to release heap memory after execution to prevent memory leaks and keep system memory safe.
+* **Safety Checks:** Verified pointer validity against `NULL` to ensure successful memory allocation before accessing elements.
+
+## Files in this Folder:
+1. `01_malloc_example.c` -> Program allocating dynamic memory for fixed elements using `malloc()`.
+2. `02_user_input_dma.c` -> Program taking custom size from the user at runtime to allocate dynamic memory.
+3. `03_realloc_example.c` -> Program expanding an existing allocated memory size using `realloc()` to append new data.
