@@ -24,7 +24,7 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_39`:** Deleting a node from a specific middle position by bypassing link references and releasing memory via `free()`.
 * **`Day_40`:** Deleting the last node of a singly linked list using second-last node traversal lookahead conditions.
 * **`Day_41`:** Searching records inside linear singly linked lists using sequential pointer traversals and optimal early termination statements.
-
+* **`Day_42`:** In-place iterative reversal of singly linked lists using modern iterative 3-pointer reference operations.
 ----
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
 
