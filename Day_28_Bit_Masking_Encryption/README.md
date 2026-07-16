@@ -1,13 +1,13 @@
 # Day 28: Bit Masking and XOR Encryption
 
-Today I dived deep into systems-level data manipulation, hardware flags management, and custom symmetric-key cryptography using bitwise operations in C.
+Today I worked on low-level data manipulation and basic encryption using bitwise operations in C.
 
 ## What I Learnt:
-* **Bit Masking Principles:** Mastered dynamic status manipulation by leveraging Bitwise OR (`|`) to set (turn ON) specific bits and Bitwise AND with NOT (`& ~`) to clear (turn OFF) targeted bit boundaries.
-* **Symmetric XOR Cryptography:** Explored the unique mathematical involution property of the Bitwise XOR (`^`) operator, where applying the same key twice fully encrypts and subsequently decrypts an unsigned integer.
-* **Stream Buffer Encryption:** Scaled bitwise encryption architectures by engineering a loop sequence that parses memory array strings, performing localized sequential modifications on individual character ASCII values.
+* **Bit Masking:** Learnt how to use the OR (`|`) operator to turn a specific bit ON, and the AND NOT (`& ~`) combination to turn a bit OFF without affecting other bits.
+* **XOR Encryption:** Explored how the XOR (`^`) operator works for data security. If you XOR data with a secret key, it scrambles the value. Doing it a second time with the same key recovers the original data.
+* **String Encryption:** Applied the XOR logic to a loop that processes a text message character by character. It modifies the ASCII values to secure the text and decodes it back to normal.
 
 ## Files in this Folder:
-1. `01_bit_masking.c` -> Low-level bit flag control script demonstrating atomic setting and clearing algorithms.
-2. `02_xor_encryption.c` -> Numerical data protection algorithm demonstrating fundamental key inversion math.
-3. `03_string_encryption.c` -> Complete text buffer encryption tool performing character-by-character string encoding.
+1. `01_bit_masking.c` -> Script demonstrating how to turn bit flags ON and OFF safely.
+2. `02_xor_encryption.c` -> Program showing how to encrypt and decrypt a number using a secret key.
+3. `03_string_encryption.c` -> A basic tool that encrypts a text string and decodes it back.
