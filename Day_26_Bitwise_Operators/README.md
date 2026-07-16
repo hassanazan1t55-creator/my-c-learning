@@ -1,10 +1,14 @@
-### Day 26: Bitwise Operators (AND, OR, XOR, NOT)
-* **Folder:** `Day_26_Bitwise_Operators`
-* **File:** `bitwise_xor_not.c`
-* **What I Learnt:**
-  * Master the 8-bit binary shortcut grid (128, 64, 32, 16, 8, 4, 2, 1) for rapid bit manipulation.
-    > Binary bits ko tezi se analyze karne ke liye 8-bit grid rule seekha.
-  * Use Bitwise AND (`&`), OR (`|`), and XOR (`^`) to evaluate logic at the bit level.
-    > Bits ke level par AND, OR, aur XOR operations ko manipulate karna seekha.
-  * Understand the Bitwise NOT (`~`) operator and how 2's complement turns the sign bit negative.
-    > NOT operator aur RAM ke andar negative status (Sign Bit) ka behavior samjha.
+# Day 26: Bitwise Operators
+
+Today I mastered low-level bit manipulation in C by learning how to interact directly with individual bits (0s and 1s) of data using bitwise logical, shift, and practical comparison operators.
+
+## What I Learnt:
+* **Bitwise Logical Operators:** Used `&` (AND), `|` (OR), and `^` (XOR) to perform bit-by-bit operations on numerical values.
+* **Bitwise NOT (`~`):** Explored unary bitwise inversion and understood how the system calculates the result using the formula `~x = -(x + 1)`.
+* **Bitwise Shifts (`<<` & `>>`):** Shifted bits left and right for lightning-fast multiplication and division by powers of 2.
+* **Bitwise Optimization (Even/Odd Check):** Implemented an elite-level optimization using `num & 1` to check for even or odd numbers by inspecting the Least Significant Bit (LSB) instead of using the traditional modulo (`%`) operator.
+
+## Files in this Folder:
+1. `01_bitwise_basics.c` -> Program demonstrating basic bitwise operations including AND, OR, XOR, and NOT.
+2. `02_bitwise_shifts.c` -> Program utilizing Bitwise Left Shift and Right Shift operators for rapid mathematical bit manipulation.
+3. `03_bitwise_even_odd.c` -> Program optimizing an Even/Odd number check using the Bitwise AND (`&`) operator.
