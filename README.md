@@ -25,6 +25,7 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_40`:** Deleting the last node of a singly linked list using second-last node traversal lookahead conditions.
 * **`Day_41`:** Searching records inside linear singly linked lists using sequential pointer traversals and optimal early termination statements.
 * **`Day_42`:** In-place iterative reversal of singly linked lists using modern iterative 3-pointer reference operations.
+* **`Day_43`:** Learned how to make a doubly linked list, print items forward and backward, and search for values.
 ----
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
 
