@@ -7,7 +7,7 @@ struct Node {
     struct Node *next;
 };
 
-// Function to print the list
+// Function to print the list.
 void printList(struct Node *head) {
     struct Node *temp = head;
     printf("Current List: NULL <-> ");
@@ -18,48 +18,48 @@ void printList(struct Node *head) {
     printf("NULL\n");
 }
 
-// 1. Delete the first node
+// 1. Delete the first node.
 struct Node* deleteAtHead(struct Node *head) {
     if (head == NULL) return NULL;
-    struct Node *temp = head; // Keep track of old head
-    head = head->next;        // Shift head to the next node
+    struct Node *temp = head; // Keep track of old head.
+    head = head->next;        // Shift head to the next node.
     
     if (head != NULL) {
-        head->prev = NULL;    // Set the new head's prev pointer to NULL
+        head->prev = NULL;    // Set the new head's prev pointer to NULL.
     }
     free(temp);
     return head;
 }
 
-// 2. Delete the last node
+// 2. Delete the last node.
 void deleteAtEnd(struct Node *head) {
     if (head == NULL || head->next == NULL) return;
     struct Node *temp = head;
     while (temp->next != NULL) {
-        temp = temp->next;    // Go to the last node
+        temp = temp->next;    // Go to the last node.
     }
     
-    struct Node *previousNode = temp->prev; // Get the second last node
-    previousNode->next = NULL;              // Set its next pointer to NULL
+    struct Node *previousNode = temp->prev; // Get the second last node.
+    previousNode->next = NULL;              // Set its next pointer to NULL.
     free(temp);
 }
 
-// 3. Delete a node from a specific position
+// 3. Delete a node from a specific position.
 void deleteAtPosition(struct Node *head, int position) {
     if (head == NULL) return;
     struct Node *temp = head;
     
-    // Jump straight to the node we want to remove
+    // Jump straight to the node we want to remove.
     for (int i = 1; i < position && temp != NULL; i++) {
         temp = temp->next;
     }
     if (temp == NULL) return;
     
-    // Connect the previous node's next link to the next node's address
+    // Connect the previous node's next link to the next node's address.
     if (temp->prev != NULL) {
         temp->prev->next = temp->next;
     }
-    // Connect the next node's prev link to the previous node's address
+    // Connect the next node's prev link to the previous node's address.
     if (temp->next != NULL) {
         temp->next->prev = temp->prev;
     }
@@ -67,7 +67,7 @@ void deleteAtPosition(struct Node *head, int position) {
 }
 
 int main() {
-    // Creating 5 nodes: 10 <-> 20 <-> 30 <-> 40 <-> 50
+    // Creating 5 nodes: 10 <-> 20 <-> 30 <-> 40 <-> 50.
     struct Node *n1 = (struct Node *)malloc(sizeof(struct Node));
     struct Node *n2 = (struct Node *)malloc(sizeof(struct Node));
     struct Node *n3 = (struct Node *)malloc(sizeof(struct Node));
@@ -85,19 +85,19 @@ int main() {
     printList(head);
     printf("\n");
     
-    //  Remove 10 from the start
+    //  Remove 10 from the start.
     head = deleteAtHead(head);
     printf("After Deleting Head (10 Removed):\n");
     printList(head);
     printf("\n");
     
-    //  Remove 50 from the end
+    //  Remove 50 from the end.
     deleteAtEnd(head);
     printf("After Deleting End (50 Removed):\n");
     printList(head);
     printf("\n");
     
-    //  Remove 30 from position 2
+    //  Remove 30 from position 2.
     deleteAtPosition(head, 2);
     printf("After Deleting Position 2 (30 Removed):\n");
     printList(head);
@@ -106,7 +106,7 @@ int main() {
     printf("=== FINAL OUTPUT ===\n");
     printList(head); 
     
-    // Free remaining nodes
+    // Free remaining nodes.
     free(n4);
     free(n2);
     return 0;
