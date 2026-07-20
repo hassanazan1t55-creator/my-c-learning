@@ -27,6 +27,7 @@ Every folder contains my daily code files and a dedicated README.md explaining e
 * **`Day_42`:** In-place iterative reversal of singly linked lists using modern iterative 3-pointer reference operations.
 * **`Day_43`:** Learned how to make a doubly linked list, print items forward and backward, and search for values.
 * **`Day_44`:** Studied front, back, and middle node insertion methods inside doubly linked list structures.
+* **`day_45`:** Learned how to remove nodes from the head, tail, and middle positions of a doubly linked list.
 ----
 Note: This repository is fully updated daily with custom codes and extra practice files to check logic.
 
