@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int number = 15;  // Binary: 00001111
+  int number = 15;  // Binary: 00001111.
 
   // Left shift by 3 bits.
   int left_shift_res = number << 3;
