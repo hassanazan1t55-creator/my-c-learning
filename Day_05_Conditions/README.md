@@ -13,3 +13,4 @@ Today I practiced multi-stage decision-making control logic in C using standard 
 2. `02_smart_discount_calculator.c` -> An advanced multi-condition retail application calculating dynamic percentages off total shopping bills.
 3. `03_income_tax.c` -> Multi-tier progressive income tax bracket calculator using fixed slabs and threshold offsets.
 4. `04_electric_bill.c` -> Progressive electricity bill calculator using slab-based tiered unit rate algorithms.
+5. `05_park_ticket_calculator.c` -> Age-based amusement park ticket calculation using top-down condition ordering.
