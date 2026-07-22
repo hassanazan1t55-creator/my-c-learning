@@ -11,7 +11,7 @@ int main() {
 
   // Checking conditions and apply Tax.
   if (salary > 100000) {
-    total = 2500 + (salary - 1e5) * 0.10;
+    total = 2500 + (salary - 100000) * 0.10;
     printf("Total Tax: %.1f", total);
   } else if (salary > 50000) {
     total = (salary - 50000) * 0.05;
