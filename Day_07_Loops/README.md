@@ -9,5 +9,5 @@ Today I practiced block iteration steps in C using standard loops to run code in
 
 ## Files in this Folder:
 1  `01_smart_savings_goal.c` -> While-loop based savings accumulator until a target threshold is reached.
-2. `03_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
-3. `02_factorial_calculator.c` -> A mathematical utility that loops through a sequential integer range to compute the exact factorial total of an entered positive value.
+2.`03_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
+3.`02_factorial_calculator.c` -> A mathematical utility that loops through a sequential integer range to compute the exact factorial total of an entered positive value.
