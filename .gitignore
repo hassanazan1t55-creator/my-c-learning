@@ -1,0 +1,11 @@
+# Compiled Executables (C language output files)
+*.exe
+*.o
+*.out
+
+# IDE / Editor Settings
+.vscode/
+
+# Temporary Files
+*.tmp
+*.log
