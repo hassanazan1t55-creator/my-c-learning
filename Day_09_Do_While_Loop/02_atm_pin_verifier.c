@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int secret_key = 12345;   // Variable to store the secret key.
-  int user_input;   // Variable to store user input.
+  int secret_key = 12345;  // Variable to store the secret key.
+  int user_input;  // Variable to store user input.
   
   // Loop until the user enters the correct secret key.
   do {
