@@ -5,12 +5,12 @@ int main() {
     int choice;
 
     do {
-        // Prompt the user for input INSIDE the loop
+        // Prompt the user for input INSIDE the loop.
         printf("\nSir Please Enter a Number:\n");
         printf("1 For Start Game | 2 For Exit Game: ");
         scanf("%d", &choice);   
 
-        // Game logic (if-else) MUST be inside the do block
+        // Game logic (if-else) MUST be inside the do block.
         if (choice == 1) {
             printf("Game Started!\n");
         } 
@@ -21,7 +21,7 @@ int main() {
             printf("Invalid choice. Please Enter 1 to Start Game or 2 to Exit Game.\n");
         }
 
-    // while condition comes at the VERY END of the do block
+    // while condition comes at the VERY END of the do block.
     } while (choice != 2); 
 
     return 0;
