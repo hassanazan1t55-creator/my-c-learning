@@ -8,4 +8,4 @@ Today I practiced multi-option conditional flows using the else-if ladder struct
 * **Practical Application:** Built a vehicle speed tracker logic to categorize speed thresholds and flag alerts dynamically.
 
 ## Files in this Folder:
-1. `speed_checker.c` -> A car speed monitoring utility evaluating velocity inputs against standard driving regulations.
+1. `01_speed_checker.c` -> A car speed monitoring utility evaluating velocity inputs against standard driving regulations.
