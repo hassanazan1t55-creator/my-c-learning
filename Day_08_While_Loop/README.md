@@ -9,6 +9,6 @@ Today I practiced loops to handle repetitive executions when the ending point de
 * **Conditional Data Filtering:** Combined standard modulo logic (`i % 2 == 0`) inside an active loop sequence to categorize values as even or odd dynamically up to a specified user threshold.
 
 ## Files in this Folder:
-1. `loop_security.c` -> A secure validation style script that remains locked inside a loop until a specific passkey code is entered.
-2. `reverse_countdown.c` -> An interactive script collecting custom numbers to run a controlled reverse numeric countdown ending with a terminal announcement.
-3. `even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
+1. `01_loop_security.c` -> A secure validation style script that remains locked inside a loop until a specific passkey code is entered.
+2. `02_reverse_countdown.c` -> An interactive script collecting custom numbers to run a controlled reverse numeric countdown ending with a terminal announcement.
+3. `03_even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
