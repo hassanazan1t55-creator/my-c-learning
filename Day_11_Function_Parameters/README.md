@@ -10,3 +10,4 @@ Today I practiced advanced function configurations by passing multiple data para
 ## Files in this Folder:
 1. `01_smart_calc.c` -> A modular calculator utility containing independent functional blocks to execute basic arithmetic addition and multiplication.
 2. `02_discount_calculator.c` -> An automated commercial application that processes total cost bills against variable discount thresholds to output net final pricing metrics.
+3. `03_student_result.c` -> Dynamic student grading evaluator accepting strings and float metrics as input arguments.
