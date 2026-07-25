@@ -8,5 +8,5 @@ Today I practiced function execution states that return computed values back to 
 * **Variable Capture:** Practiced capturing returned functional data directly into localized variables (`result` and `Final_Answer`) for separate processing and displaying.
 
 ## Files in this Folder:
-1. `function_return.c` -> A modular calculator function designed to calculate the sum of two integers and return the total value.
-2. `function_subtraction.c` -> An independent arithmetic processing utility that evaluates subtraction equations and passes the final difference back to the program root.
+1. `01_function_return.c` -> A modular calculator function designed to calculate the sum of two integers and return the total value.
+2. `02_function_subtraction.c` -> An independent arithmetic processing utility that evaluates subtraction equations and passes the final difference back to the program root.
