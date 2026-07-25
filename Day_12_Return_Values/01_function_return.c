@@ -7,7 +7,7 @@ int Addition(int a, int b) {
 }
 
 int main() {
-  int result;                 // Variable To Store The Result.
+  int result;
   result = Addition(89, 43);  // Function Calling.
 
   // Displaying The Result.
