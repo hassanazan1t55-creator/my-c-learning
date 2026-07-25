@@ -8,5 +8,5 @@ Today I practiced advanced function configurations by passing multiple data para
 * **Business Logic Implementation:** Developed automated computation structures to evaluate discount rates and dynamic total billing outputs based on real-world financial parameters.
 
 ## Files in this Folder:
-1. `smart_calc.c` -> A modular calculator utility containing independent functional blocks to execute basic arithmetic addition and multiplication.
-2. `discount_calculator.c` -> An automated commercial application that processes total cost bills against variable discount thresholds to output net final pricing metrics.
+1. `01_smart_calc.c` -> A modular calculator utility containing independent functional blocks to execute basic arithmetic addition and multiplication.
+2. `02_discount_calculator.c` -> An automated commercial application that processes total cost bills against variable discount thresholds to output net final pricing metrics.
