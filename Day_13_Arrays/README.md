@@ -12,3 +12,4 @@ Today I practiced managing sequential data allocations by using arrays to group 
 2. `02_lucky_numbers.c` -> An interactive script focusing on targeting specific index locations to parse structured elements out of an data array set.
 3. `03_array_with_loop.c` -> A dynamic application combining counter loops with array parameters to safely capture and print variable commercial pricing decimals.
 4. `04_array_operations.c` -> Manipulating array values directly and calculating aggregate sums from index values.
+5. `05_array_length.c` -> Dynamic size calculation of arrays using the sizeof operator.
