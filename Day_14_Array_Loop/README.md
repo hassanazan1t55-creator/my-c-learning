@@ -10,5 +10,5 @@ Today I practiced combining arrays with iterative loops to capture multiple valu
 
 ## Files in this Folder:
 1. `01_salary_print.c` -> A script that loops through an initialized array to print formatted employee salaries with currency labels.
-2. `lucky_drawer.c` -> An interactive program using an input loop to save distinct user choices into an array and a separate loop to display them.
+2. `02_lucky_drawer.c` -> An interactive program using an input loop to save distinct user choices into an array and a separate loop to display them.
 3. `student_average.c` -> A calculation utility that takes scores for 5 students, calculates the total sum, and outputs the precise floating-point average.
