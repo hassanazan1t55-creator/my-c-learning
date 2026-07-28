@@ -8,6 +8,6 @@ Today I practiced capturing safe string inputs in C using `fgets` to prevent buf
 * **Input Buffer Flushing:** Mastered clearing leftover newline characters from the buffer using `while (getchar() != '\n');` when combining `scanf` and `fgets` inside loops.
 
 ## Files in this Folder:
-1. `fgets_string_input.c` -> A basic program taking full name input using `fgets` to read complete text strings with spaces.
+1. `01_fgets_string_input.c` -> A basic program taking full name input using `fgets` to read complete text strings with spaces.
 2. `secure_input.c` -> A status reporting script testing fixed array boundaries with `fgets` input.
 3. `student_report.c` -> A student report system combining loops, mark calculations, buffer clearing, and pass/fail conditions.
