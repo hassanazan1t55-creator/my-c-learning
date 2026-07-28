@@ -10,4 +10,4 @@ Today I practiced capturing safe string inputs in C using `fgets` to prevent buf
 ## Files in this Folder:
 1. `01_fgets_string_input.c` -> A basic program taking full name input using `fgets` to read complete text strings with spaces.
 2. `02_secure_input.c` -> A status reporting script testing fixed array boundaries with `fgets` input.
-3. `student_report.c` -> A student report system combining loops, mark calculations, buffer clearing, and pass/fail conditions.
+3. `03_student_report.c` -> A student report system combining loops, mark calculations, buffer clearing, and pass/fail conditions.
