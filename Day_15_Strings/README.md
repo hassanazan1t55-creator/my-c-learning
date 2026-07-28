@@ -11,3 +11,4 @@ Today I learned how to handle text and words in C using character arrays, string
 1. `01_intro_to_strings.c` -> An introduction script demonstrating how to store text strings and print them cleanly.
 2. `02_fav_lang.c` -> A basic program storing name strings and accessing specific letter positions using character array indexing.
 3. `03_string_modification.c` -> A program showing how to modify individual characters in an existing string array to change the word output.
+4. `04_string_practice.c` -> String character mutation and manual length calculation using null character condition.
