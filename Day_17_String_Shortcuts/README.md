@@ -10,5 +10,5 @@ Today I practiced using the `<string.h>` library functions in C to handle string
 
 ## Files in this Folder:
 1. `01_string_magic.c` -> A program demonstrating string copying with `strcpy` and length checking with `strlen`.
-2. `string_functions.c` -> A script combining first and last name strings into a full name using `strcat`.
+2. `02_string_functions.c` -> A script combining first and last name strings into a full name using `strcat`.
 3. `string_compare.c` -> A basic authentication program checking user input against a saved password using `strcmp`.
