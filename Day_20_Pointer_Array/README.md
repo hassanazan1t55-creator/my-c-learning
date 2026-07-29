@@ -9,5 +9,5 @@ Today I learned how array names decay into pointers pointing to the first memory
 
 ## Files in this Folder:
 1. `01_pointer_array.c` -> Program demonstrating array indexing versus pointer offset traversal with memory addresses.
-2. `array_sum_pointer.c` -> Script calculating the sum of array elements using pointer arithmetic inside a loop.
+2. `02_array_sum_pointer.c` -> Script calculating the sum of array elements using pointer arithmetic inside a loop.
 3. `reverse_array_pointer.c` -> Program printing array values in reverse order by offsetting pointers backwards.
