@@ -9,6 +9,6 @@ Today I learned how to interact with external text files in C using file pointer
 * **Safe File Management:** Applied NULL checks on file pointers and ensured `fclose()` is called to save changes and release file handles.
 
 ## Files in this Folder:
-1. `create_and_write_file.c` -> Program creating a text file and writing initial data into it using `fprintf()`.
+1. `01_write_file.c` -> Program creating a text file and writing initial data into it using `fprintf()`.
 2. `read_file.c` -> Program reading text lines from an existing file and printing them on the screen.
 3. `append_file.c` -> Program adding new lines to the end of an existing file without deleting past records.
