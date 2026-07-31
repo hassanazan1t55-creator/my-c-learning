@@ -9,5 +9,5 @@ Today I learned how to create pointers to structures and access or modify struct
 
 ## Files in this Folder:
 1. `01_pointer_structure.c` -> Program demonstrating structure pointer creation and accessing attributes using the `->` operator.
-2. `structure_modification.c` -> Program updating structure values directly in memory through structure pointers.
-3. `structure_with_function.c` -> Program passing structure addresses to functions to alter values using call-by-reference.
+3. `02_structure_with_function.c` -> Program passing structure addresses to functions to alter values using call-by-reference.
+3. `structure_modification.c` -> Program updating structure values directly in memory through structure pointers.
