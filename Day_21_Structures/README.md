@@ -10,4 +10,4 @@ Today I learned how to create user-defined custom data structures using the `str
 ## Files in this Folder:
 1. `01_student_structure.c` -> Basic structure implementation defining and displaying student details.
 2. `02_user_input_structure.c` -> Program taking custom car data input from the user using structure variables.
-3. `array_of_structures.c` -> Program managing an array of structure objects to store multiple car records via loops.
+3. `03_array_of_structures.c` -> Program managing an array of structure objects to store multiple car records via loops.
