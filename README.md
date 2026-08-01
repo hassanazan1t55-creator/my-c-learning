@@ -1,3 +1,4 @@
+![C Build Check](https://github.com/hassanazan1t55-creator/my-c-learning/actions/workflows/c-build.yml/badge.svg)
 # My C Programming Journey
 
 Welcome to my daily learning repository. I am learning C programming language from absolute scratch for computer science and security logic.
