@@ -1,0 +1,24 @@
+name: C Build Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v4
+
+    - name: Install GCC Compiler
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential
+
+    - name: Test Compile All C Files
+      run: |
+        find . -name "*.c" -exec gcc -Wall -Wextra {} -o /dev/null \;
