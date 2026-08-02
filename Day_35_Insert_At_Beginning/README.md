@@ -11,6 +11,6 @@ Today I mastered dynamic node insertion at the start (head) of a linked list, un
 * **Function Return Patterns:** Implemented functions returning updated pointer references (`struct Node*`) to maintain clean main function states during head mutations.
 
 ## Files in this Folder:
-1. `insert_at_beginning_function.c` -> Standard modular implementation utilizing helper insertion functions returning updated head addresses.
+1. `01_insert_at_beginning_function.c` -> Standard modular implementation utilizing helper insertion functions returning updated head addresses.
 2. `direct_head_insertion.c` -> Simplified inline script explaining exact raw pointer assignments during front node prepend operations.
 3. `multiple_head_insertions.c` -> Sequential multi-node prepend script demonstrating building a full chain dynamically from head updates.
