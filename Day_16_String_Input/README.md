@@ -12,3 +12,4 @@ Today I practiced capturing safe string inputs in C using `fgets` to prevent buf
 2. `02_secure_input.c` -> A status reporting script testing fixed array boundaries with `fgets` input.
 3. `03_student_report.c` -> A student report system combining loops, mark calculations, buffer clearing, and pass/fail conditions.
 4. `04_badge_generator.c` -> Advanced string input cleanup removing newline characters for formatted visual displays.
+5. `05_profile_builder.c` -> String manipulation utility using strlen, strcpy, and strcat with newline cleanup for formatted full-name display.
