@@ -8,6 +8,6 @@ Today I practiced traversing through dynamic linked list structures using iterat
 * **Target Search Logic:** Implemented searching operations using conditional checks inside traversal loops, leveraging the `break` keyword to exit early when a match is detected.
 
 ## Files in this Folder:
-1. `linked_list_traversal.c` -> Foundational script demonstrating simple sequence printing across three linked nodes.
+1. `01_linked_list_traversal.c` -> Foundational script demonstrating simple sequence printing across three linked nodes.
 2. `student_marks_tracker.c` -> Practical academic system calculating cumulative grade totals across subject nodes during traversal.
 3. `port_search_engine.c` -> Target search script checking network port addresses across dynamic node pointers with optimized loop breaks.
