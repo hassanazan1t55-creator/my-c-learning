@@ -9,5 +9,5 @@ Today I learned how to insert a new node into any specific position inside a lin
 
 ## Files in this Folder:
 1. `01_insert_at_position_basic.c` -> Basic example showing how to insert node 20 between 10 and 30.
-2. `game_leaderboard.c` -> Practice program that places a score of 90 into rank 2 on a leaderboard.
+2. `02_game_leaderboard.c` -> Practice program that places a score of 90 into rank 2 on a leaderboard.
 3. `employee_id_insertion.c` -> Real-world style program inserting missing employee ID 102 into sequence.
