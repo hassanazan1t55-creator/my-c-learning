@@ -8,6 +8,6 @@ Today I mastered deleting a node from a specific middle position in a singly lin
 * **Memory Deallocation:** Used `free()` on the unlinked target node to permanently remove it from RAM and avoid memory leaks.
 
 ## Files in this Folder:
-1. `delete_middle_basic.c` -> Positional deletion in a 3-element linked list using loop traversal.
+1. `01_delete_middle_basic.c` -> Positional deletion in a 3-element linked list using loop traversal.
 2. `delete_middle_direct.c` -> Direct pointer re-linking and memory deallocation without extra loops.
 3. `music_playlist.c` -> Real-world simulation of deleting a specific middle song record from a media playlist.
