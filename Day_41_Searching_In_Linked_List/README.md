@@ -10,4 +10,4 @@ This folder contains practical implementations demonstrating how to perform sequ
 ## Files in this Folder:
 1. `01_searching_list_basic.c` -> Core logic implementing lookups for specific numbers within a 3-node linked list.
 2. `02_attendance_finder.c` -> Real-world simulation of an academic attendance register checking if a student's Roll Number exists in the sequence.
-3. `inventory_search.c` -> E-commerce inventory management tracking system checking if a unique Product ID is currently in stock or out of stock.
+3. `03_inventory_search.c` -> E-commerce inventory management tracking system checking if a unique Product ID is currently in stock or out of stock.
