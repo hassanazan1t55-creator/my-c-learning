@@ -10,5 +10,5 @@ Today I mastered the ultimate iterative linked list manipulation: reversing poin
 ## Files in this Folder:
 1. `01_reverse_list_basic.c` -> Core basic logic program reversing an integer sequence in-place.
 2. `02_train_reversal.c` -> Program reversing basic char values matching physical locomotive link adjustments.
-3. `chat_history_reversal.c` -> Program processing timeline values to reposition order scales from standard to descending structures.
+3. `03_chat_history_reversal.c` -> Program processing timeline values to reposition order scales from standard to descending structures.
 4. `crypto_price_reversal.c` -> Script manipulating database structures to check value histories in reverse.
