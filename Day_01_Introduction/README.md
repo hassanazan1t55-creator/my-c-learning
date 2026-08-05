@@ -7,4 +7,4 @@ Today I initiated my repository setup and successfully compiled my very first lo
 * **First Code Compilation:** Configured the base structure to execute and run a traditional "Hello World" terminal output script.
 
 ## Files in this Folder:
-1. `hello_world.c` -> The foundational starting script displaying standard message streams on the screen.
+1. `01_hello_world.c` -> The foundational starting script displaying standard message streams on the screen.
