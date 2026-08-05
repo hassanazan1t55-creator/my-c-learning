@@ -10,4 +10,4 @@ Today I learned about Doubly Linked Lists (DLL). We moved from a simple one-way 
 ## Files in this Folder:
 1. `01_doubly_list_foundation.c` -> Setting up a basic doubly linked list with three nodes.
 2. `02_bidirectional_traversal.c` -> Code to print the list both forward and backward.
-3. `doubly_list_search.c` -> Complete practice file that handles two-way printing and searching for a value.
+3. `03_doubly_list_search.c` -> Complete practice file that handles two-way printing and searching for a value.
