@@ -8,5 +8,5 @@ Today I learned how to interact with users by capturing live inputs from the ter
 * **Format Stability:** Practiced clearing buffer spaces (using a leading space like `" %c"`) to safely read single characters without skipping inputs.
 
 ## Files in this Folder:
-1. `input.c` -> Basic user input script capturing integer and floating-point data values.
+1. `01_input.c` -> Basic user input script capturing integer and floating-point data values.
 2. `product_billing_system.c` -> A practical billing system script that takes product quantity, price, and store section coordinates from the user.
