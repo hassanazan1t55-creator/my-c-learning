@@ -4,7 +4,7 @@
 This module covers basic arithmetic operations in C, including variable declaration, user input, and mathematical calculations. We explored both the lecture example and custom practice problems.
 
 ## Files in this Directory
-- `calculator.c`: Lecture example (multiplication and variable handling).
+- `01_calculator.c`: Lecture example (multiplication and variable handling).
 - `practice/`: My personal practice folder.
   - `practice1.c`: A custom program to calculate the area of a rectangle using length and breadth input.
 
