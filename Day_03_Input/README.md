@@ -9,4 +9,4 @@ Today I learned how to interact with users by capturing live inputs from the ter
 
 ## Files in this Folder:
 1. `01_input.c` -> Basic user input script capturing integer and floating-point data values.
-2. `product_billing_system.c` -> A practical billing system script that takes product quantity, price, and store section coordinates from the user.
+2. `02_product_billing_system.c` -> A practical billing system script that takes product quantity, price, and store section coordinates from the user.
