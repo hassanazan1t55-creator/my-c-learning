@@ -1,10 +1,15 @@
 # Day 04: Basic Operators & Math Logic
 
-Today I checked how arithmetic mathematical operations run inside the system environment.
+## Module Overview
+This module covers basic arithmetic operations in C, including variable declaration, user input, and mathematical calculations. We explored both the lecture example and custom practice problems.
 
-## What I Learnt:
-* **Mathematical Operations:** Practiced writing arithmetic logic expressions to process multiple variables seamlessly.
-* **Building Logic Controllers:** Developed an active multi-variable calculator prototype designed to handle multiplication steps safely.
+## Files in this Directory
+- `calculator.c`: Lecture example (multiplication and variable handling).
+- `practice/`: My personal practice folder.
+  - `practice1.c`: A custom program to calculate the area of a rectangle using length and breadth input.
 
-## Files in this Folder:
-1. `calculator.c` -> An interactive script collecting custom numbers to perform calculation routines directly.
+## Key Takeaways
+- Understood how to take integer input using `scanf()`.
+- Practiced arithmetic operations (`*` for multiplication).
+- Displayed output using `printf()` with proper formatting.
+- Created a separate practice space to test my own logic without disturbing the main lecture code.
