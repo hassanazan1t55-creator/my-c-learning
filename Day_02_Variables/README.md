@@ -9,3 +9,4 @@ Today I explored basic storage containers inside RAM and practiced formatting nu
 
 ## Files in this Folder:
 1. `01_variables.c` -> Foundational implementation storing different data configurations and testing precise printing formats.
+2. `02_variable_declaration_practice.c` - Practice program for declaring multiple variables, assignment logic, and basic arithmetic operations.
