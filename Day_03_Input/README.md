@@ -12,3 +12,4 @@ Today I learned how to interact with users by capturing live inputs from the ter
 2. `02_product_billing_system.c` -> A practical billing system script that takes product quantity, price, and store section coordinates from the user.
 3. `03_circle_area.c` -> Circle Area Calculator Working with floating-point calculations and standard formatting (`%.2f`).
 4. `04_triangle_area.c` -> Program to calculate the area of a triangle using user input (`0.5 * base * height`).
+5. `05_rectangle_area.c` -> Program to calculate the area of a rectangle based on user input for length and breadth.
