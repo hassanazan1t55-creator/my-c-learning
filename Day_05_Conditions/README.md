@@ -15,3 +15,4 @@ Today I practiced multi-stage decision-making control logic in C using standard 
 4. `04_electric_bill.c` -> Progressive electricity bill calculator using slab-based tiered unit rate algorithms.
 5. `05_park_ticket_calculator.c` -> Age-based amusement park ticket calculation using top-down condition ordering.
 6. `06_if_truthiness_concept.c` -> Demonstration of how C treats non-zero numbers and characters as true and zero as false in if conditions.
+7. `07_switch_case_basics.c` -> Basic demonstration of switch-case statements with break and default cases for control flow.
