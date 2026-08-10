@@ -9,3 +9,4 @@ Today I practiced multi-option conditional flows using the else-if ladder struct
 
 ## Files in this Folder:
 1. `01_speed_checker.c` -> A car speed monitoring utility evaluating velocity inputs against standard driving regulations.
+2. `02_lowercase_ascii_checker.c` -> Program to check whether a character is lowercase using ASCII integer range evaluation.
