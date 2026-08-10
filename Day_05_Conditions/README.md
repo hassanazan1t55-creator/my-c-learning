@@ -19,3 +19,4 @@ Today I practiced multi-stage decision-making control logic in C using standard 
 8. `08_student_grade_calculator.c` -> Program using else-if ladder with logical AND (&&) operator to calculate student grades based on mark ranges.
 9. `09_student_pass_fail_check.c` -> Program to evaluate student pass/fail result based on individual subject marks and overall percentage criteria.
 10. `10_income_tax_calculator.c` -> Income tax calculation program using slab-based conditional if-else logic.
+11. `11_leap_year_checker.c` -> Program to check if a given year is a leap year using modulo and logical operators .
