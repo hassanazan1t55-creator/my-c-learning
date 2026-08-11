@@ -12,5 +12,5 @@ Today I practiced loops to handle repetitive executions when the ending point de
 1. `01_while_loop_basics.c` -> Basic introduction to while loops by repeating a message using a counter variable.
 2. `02_while_loop_filter.c` -> Program using a while loop with an if condition to print numbers only within a specific range (10 to 20).
 3. `03_loop_security.c` -> A secure validation style script that remains locked inside a loop until a specific passkey code is entered.
-4. `03_reverse_countdown.c` -> An interactive script collecting custom numbers to run a controlled reverse numeric countdown ending with a terminal announcement.
+4. `04_reverse_countdown.c` -> An interactive script collecting custom numbers to run a controlled reverse numeric countdown ending with a terminal announcement.
 5. `04_even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
