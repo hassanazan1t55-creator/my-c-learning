@@ -15,4 +15,4 @@ Today I practiced block iteration steps in C using standard loops to run code in
 5. `05_reverse_multiplication_table.c` -> Program to print a multiplication table in reverse order (10 to 1) using a decrementing for loop.
 6. `06_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
 7. `07_break_and_continue.c` -> Program demonstrating the difference between break (loop termination) and continue (iteration skipping) control flow statements.
-7. `07_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
+8. `08_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
