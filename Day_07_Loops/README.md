@@ -14,4 +14,4 @@ Today I practiced block iteration steps in C using standard loops to run code in
 4. `04_factorial_calculator.c` -> A mathematical utility that loops through a sequential integer range to compute the exact factorial total of an entered positive value.
 5. `05_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
 6. `06_break_and_continue.c` -> Program demonstrating the difference between break (loop termination) and continue (iteration skipping) control flow statements.
-6. `06_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
+7. `06_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
