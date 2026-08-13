@@ -12,5 +12,5 @@ Today I practiced block iteration steps in C using standard loops to run code in
 2. `02_for_loop_decrement.c` -> Program demonstrating a reverse for loop using decrement operators and implicit truthy conditions.
 3. `03_smart_savings_goal.c` -> While-loop based savings accumulator until a target threshold is reached.
 4. `04_factorial_calculator.c` -> A mathematical utility that loops through a sequential integer range to compute the exact factorial total of an entered positive value.
-4. `04_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
+5. `05_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
 5. `05_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
