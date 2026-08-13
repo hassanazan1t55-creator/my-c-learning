@@ -14,4 +14,4 @@ Today I practiced loops to handle repetitive executions when the ending point de
 3. `03_factorial_calculator.c` -> Program to calculate the factorial of a number using a while loop and cumulative multiplication.
 4. `04_loop_security.c` -> A secure validation style script that remains locked inside a loop until a specific passkey code is entered.
 5. `05_reverse_countdown.c` -> An interactive script collecting custom numbers to run a controlled reverse numeric countdown ending with a terminal announcement.
-5. `05_even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
+6. `06_even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
