@@ -13,6 +13,7 @@ Today I practiced block iteration steps in C using standard loops to run code in
 3. `03_smart_savings_goal.c` -> While-loop based savings accumulator until a target threshold is reached.
 4. `04_factorial_calculator.c` -> A mathematical utility that loops through a sequential integer range to compute the exact factorial total of an entered positive value.
 5. `05_reverse_multiplication_table.c` -> Program to print a multiplication table in reverse order (10 to 1) using a decrementing for loop.
+6. `06_prime_number_checker.c` -> Program to check whether a given number is prime using a for loop and a boolean flag.
 6. `06_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
 7. `07_break_and_continue.c` -> Program demonstrating the difference between break (loop termination) and continue (iteration skipping) control flow statements.
 8. `08_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
