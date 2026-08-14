@@ -17,7 +17,7 @@ int main() {
         do {
             if (n % i == 0) {
                 Not_prime = 1;
-                break; // Factor mil gaya, loop roko
+                break;
             }
             i++;
         } while (i < n);
