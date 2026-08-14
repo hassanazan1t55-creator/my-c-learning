@@ -9,6 +9,7 @@ Today I practiced exit-controlled loop logic to guarantee that program statement
 
 ## Files in this Folder:
 1.  `01_do_while_basics.c` -> Basic demonstration of do-while loop execution flow and iteration counter.
+2.  `02_prime_check_do_while.c`-> Prime number checking program refactored using a do-while loop control structure.
 2.  `02_restaurant_menu.c` -> An interactive fast-food ordering menu system running continuously until user selects exit.
 3.  `03_atm_pin_verifier.c` -> An authentication verification system that keeps prompting for secret security keys until access criteria are satisfied.
 4.  `04_game_menu_system.c` -> An interactive menu interface that cycles through gameplay selections and safely terminates execution upon user command.
