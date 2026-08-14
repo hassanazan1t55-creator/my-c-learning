@@ -13,4 +13,4 @@ Today I practiced exit-controlled loop logic to guarantee that program statement
 3.  `03_restaurant_menu.c` -> An interactive fast-food ordering menu system running continuously until user selects exit.
 4.  `04_atm_pin_verifier.c` -> An authentication verification system that keeps prompting for secret security keys until access criteria are satisfied.
 5.  `05_game_menu_system.c` -> An interactive menu interface that cycles through gameplay selections and safely terminates execution upon user command.
-5.  `05_number_guessing_game.c` -> Interactive number guessing game with high/low hints and attempt tracking using do-while loop.
+6.  `06_number_guessing_game.c` -> Interactive number guessing game with high/low hints and attempt tracking using do-while loop.
