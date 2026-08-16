@@ -8,6 +8,7 @@ Today I practiced structural code decomposition by writing modular custom functi
 * **Function Parameterization:** Mastered passing explicit runtime variables and data arguments dynamically into functional execution blocks to run math calculations cleanly.
 
 ## Files in this Folder:
+1. `01_function_basics.c` -> Basic program demonstrating function prototyping, parameter passing, and returning values.
 1. `01_cyber_alert.c` -> A modular reporting function that displays defensive information systems alerts repeatedly on demand.
 2. `02_function_parameters.c` -> A mathematical helper utility that accepts input integer arguments to calculate and print square products cleanly.
 3. `03_atm_dashboard.c` -> Modular C code dividing ATM display flow into independent function blocks.
