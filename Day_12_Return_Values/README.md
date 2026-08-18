@@ -11,4 +11,4 @@ Today I practiced function execution states that return computed values back to 
 1. `01_function_return.c` -> A modular calculator function designed to calculate the sum of two integers and return the total value.
 2. `02_factorial_function.c` -> Program to calculate factorial using a function returning a `long long` value with negative input handling.
 3. `03_function_subtraction.c` -> An independent arithmetic processing utility that evaluates subtraction equations and passes the final difference back to the program root.
-3. `03_invoice_calculator.c` -> An advanced multi-function invoice system evaluating both promotional discounts and sales taxes.
+4. `03_invoice_calculator.c` -> An advanced multi-function invoice system evaluating both promotional discounts and sales taxes.
