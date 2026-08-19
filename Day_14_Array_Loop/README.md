@@ -9,6 +9,6 @@ Today I practiced combining arrays with iterative loops to capture multiple valu
 * **Formatted Decimals:** Formatted final float averages to two decimal places (`%.2f`) for clean console reporting.
 
 ## Files in this Folder:
-1. `01_salary_print.c` -> A script that loops through an initialized array to print formatted employee salaries with currency labels.
-2. `02_lucky_drawer.c` -> An interactive program using an input loop to save distinct user choices into an array and a separate loop to display them.
-3. `03_student_average.c` -> A calculation utility that takes scores for 5 students, calculates the total sum, and outputs the precise floating-point average.
+. `01_salary_print.c` -> A script that loops through an initialized array to print formatted employee salaries with currency labels.
+. `02_lucky_drawer.c` -> An interactive program using an input loop to save distinct user choices into an array and a separate loop to display them.
+. `03_student_average.c` -> A calculation utility that takes scores for 5 students, calculates the total sum, and outputs the precise floating-point average.
