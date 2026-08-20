@@ -8,7 +8,7 @@ Today I learned how to pass variable memory addresses into functions using point
 * **Value Swapping:** Implemented variable swapping logic using pointer addresses and temporary memory storage.
 
 ## Files in this Folder:
-. `01_call_by_reference.c` -> Program swapping two integer variables using pointer references in a function.
+1. `01_call_by_reference.c` -> Program swapping two integer variables using pointer references in a function.
 2. `02_height_booster.c` -> Program updating a height value directly inside memory through a helper function.
 . `03_salary_bonus.c` -> Program doubling an employee salary directly using call-by-reference logic.
 4. `04_pointer_to_pointer.c` -> Program demonstrating double pointers (`**`) to store memory addresses of other pointers.
