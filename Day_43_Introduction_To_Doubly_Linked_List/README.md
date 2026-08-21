@@ -8,4 +8,3 @@ Today I learned about Doubly Linked Lists (DLL). We moved from a simple one-way 
 * **Searching values:** I combined search logic with the new doubly linked list to find numbers inside the nodes.
 
  
- `01_doubly_list_foundation.c` -> Setting up a basic doubly linked list with three nodes.
