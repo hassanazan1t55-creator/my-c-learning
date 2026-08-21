@@ -7,4 +7,5 @@ Today I learned about Doubly Linked Lists (DLL). We moved from a simple one-way 
 * **Going Both Ways:** I learned how to print the list from start to end, and also how to print it backwards from the last node using the prev pointer.
 * **Searching values:** I combined search logic with the new doubly linked list to find numbers inside the nodes.
 
- 
+ ## Files in this Folder:
+1. `01_doubly_list_foundation.c` -> Setting up a basic doubly linked list with three nodes.
