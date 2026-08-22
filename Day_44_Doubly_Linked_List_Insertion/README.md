@@ -8,7 +8,7 @@ Today I learned how to insert nodes into a Doubly Linked List (DLL). The basic l
 * **Insert at Position (Middle):** Learned how to place a node between two existing items by matching a set of four distinct pointer changes without losing the rest of the list.
 
 ## Files in this Folder:
-1 01_doubly_ist_insertion.c` -> Basic program testing entry operations at the head and tail of the list.
+1. 01_doubly_ist_insertion.c` -> Basic program testing entry operations at the head and tail of the list.
 2. `0_guest_entry_system.c` -> Simulation program using a guest lineup model to practice front and back inserts.
 3. `0_doubly_list_mid_insertion.c` -> Core practice file targeting insertion inside specific middle index points.
 5. `05_song_playlist_queue.c` -> Media player queue tracking that appends new tracks at the end of the list.
