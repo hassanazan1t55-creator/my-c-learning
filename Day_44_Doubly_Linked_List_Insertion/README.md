@@ -14,4 +14,3 @@ Today I learned how to insert nodes into a Doubly Linked List (DLL). The basic l
 4. `04_whatsapp_chat_pin.c` -> Real-world simulation that pins chat entries right at the head of a list.
 5. `05_song_playlist_queue.c` -> Media player queue tracking that appends new tracks at the end of the list.
 6. `06_game_leaderboard.c` -> Score ranking program inserting mid-tier points inside node
-8. `08_ultimate_doubly_insertion.c` -> Master combination program compiling front, back, and middle node insertions.
