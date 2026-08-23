@@ -9,6 +9,6 @@ Today I practiced managing sequential data allocations by using arrays to group 
 
 ## Files in this Folder:
 
-dynamic application combining counter loops with array parameters to safely capture and print variable commercial pricing decimals.
+
 4. `03_array_operations.c` -> Manipulating array values directly and calculating aggregate sums from index values.
 6. `07_array_length.c` -> Dynamic size calculation of arrays using the sizeof operator.
