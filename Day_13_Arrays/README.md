@@ -10,5 +10,5 @@ Today I practiced managing sequential data allocations by using arrays to group 
 ## Files in this Folder:
 
 
-4alues.
+
 6. `07_array_length.c` -> Dynamic size calculation of arrays using the sizeof operator.
