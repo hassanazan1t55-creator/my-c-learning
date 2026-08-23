@@ -9,7 +9,6 @@ Today I practiced managing sequential data allocations by using arrays to group 
 
 ## Files in this Folder:
 1. `_intro_to_arrays.c` -> A foundational array initialization profile demonstrating how to assign static student score lists using explicit hardcoded indexes.
-2. `02_lucky_numbers.c` -> An interactive script focusing on targeting specific index locations to parse structured elements out of an data array set.
-3. `03_array_with_loop.c` -> A dynamic application combining counter loops with array parameters to safely capture and print variable commercial pricing decimals.
+2. `02_lucky_numbers.c` -> An interactive script focusing on targeting specific index locations to parse structured elements out of an data array set.ray_with_loop.c` -> A dynamic application combining counter loops with array parameters to safely capture and print variable commercial pricing decimals.
 4. `03_array_operations.c` -> Manipulating array values directly and calculating aggregate sums from index values.
 6. `07_array_length.c` -> Dynamic size calculation of arrays using the sizeof operator.
