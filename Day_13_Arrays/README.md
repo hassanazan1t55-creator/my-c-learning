@@ -8,7 +8,3 @@ Today I practiced managing sequential data allocations by using arrays to group 
 * **Dynamic Loop Integration:** Combined arrays with iterative `for` loop frameworks to automate sequential user scanning operations and output processes cleanly.
 
 ## Files in this Folder:
-
-
-
-6. `07_array_length.c` -> Dynamic size calculation of arrays using the sizeof operator.
