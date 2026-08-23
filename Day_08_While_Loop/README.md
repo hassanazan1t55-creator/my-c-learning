@@ -15,4 +15,4 @@ Today I practiced loops to handle repetitive executions when the ending point de
 4. `04_count_digits.c` -> Program to count the total number of digits in a given integer using a `while` loop.
 5. `05_loop_security.c` -> A secure validation style script that remains locked inside a loop until a specific passkey code is entered.
 6. `06_reverse_countdown.c` -> An interactive script collecting custom numbers to run a controlled reverse numeric countdown ending with a terminal announcement.
-7. `07_even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
+7. `09_even_odd_filter.c` -> A calculation processing utility that loops through a set range of integers to isolate even numbers from odd numbers sequentially.
