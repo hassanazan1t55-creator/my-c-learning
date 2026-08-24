@@ -16,5 +16,5 @@ Today I practiced block iteration steps in C using standard loops to run code in
 6. `06_prime_number_checker.c` -> Program to check whether a given number is prime using a for loop and a boolean flag.
 7. `07_pattern_printing.c` -> Program to print right-angled, inverted star, and number triangle patterns using nested for loops.
 8. `08_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
-8. `08_break_and_continue.c` -> Program demonstrating the difference between break (loop termination) and continue (iteration skipping) control flow statements.
+9. `08_break_and_continue.c` -> Program demonstrating the difference between break (loop termination) and continue (iteration skipping) control flow statements.
 9. `09_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
