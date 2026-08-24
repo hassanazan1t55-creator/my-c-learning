@@ -17,4 +17,4 @@ Today I practiced block iteration steps in C using standard loops to run code in
 7. `07_pattern_printing.c` -> Program to print right-angled, inverted star, and number triangle patterns using nested for loops.
 8. `08_table.c` -> An interactive script that collects a user input number to generate and display a custom multiplication table instantly.
 9. `09_break_and_continue.c` -> Program demonstrating the difference between break (loop termination) and continue (iteration skipping) control flow statements.
-10. `09_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
+10. `10_atm_pin_checker.c` -> Security validation loop enforcing maximum attempt limits before system lockout.
