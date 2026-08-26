@@ -13,4 +13,4 @@ Today I practiced structural code decomposition by writing modular custom functi
 3. `03_static_variables.c` -> Program demonstrating static variable persistence across multiple function calls.
 4. `04_cyber_alert.c` -> A modular reporting function that displays defensive information systems alerts repeatedly on demand.
 5. `05_function_parameters.c` -> A mathematical helper utility that accepts input integer arguments to calculate and print square products cleanly.
-6. `05_atm_dashboard.c` -> Modular C code dividing ATM display flow into independent function blocks.
+6. `06_atm_dashboard.c` -> Modular C code dividing ATM display flow into independent function blocks.
