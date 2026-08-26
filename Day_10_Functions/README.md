@@ -11,6 +11,6 @@ Today I practiced structural code decomposition by writing modular custom functi
 1. `01_function_basics.c` -> Basic program demonstrating function prototyping, parameter passing, and returning values.
 2. `02_void_functions.c` -> Program demonstrating multiple void function declarations and modular execution flow.
 3. `03_static_variables.c` -> Program demonstrating static variable persistence across multiple function calls.
-4. `03_cyber_alert.c` -> A modular reporting function that displays defensive information systems alerts repeatedly on demand.
+4. `04_cyber_alert.c` -> A modular reporting function that displays defensive information systems alerts repeatedly on demand.
 4. `04_function_parameters.c` -> A mathematical helper utility that accepts input integer arguments to calculate and print square products cleanly.
 5. `05_atm_dashboard.c` -> Modular C code dividing ATM display flow into independent function blocks.
